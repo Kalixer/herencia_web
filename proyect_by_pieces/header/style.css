@@ -51,7 +51,11 @@ nav {
     /* border: hotpink solid 2px; */
     color: white;
     font-size: 1.8rem;
+    cursor: pointer;
 
+}
+.secciones-nav li:hover{
+    color: #B4844E;
 }
 .contact {
     /* border: black solid 2px; */

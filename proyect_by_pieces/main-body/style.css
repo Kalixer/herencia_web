@@ -12,6 +12,8 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-bottom: solid 3px #c7c7c7;
+
 }
 .logo{
     margin-left: 1rem;
@@ -51,7 +53,10 @@ nav {
     /* border: hotpink solid 2px; */
     color: white;
     font-size: 1.8rem;
-
+    cursor: pointer;
+}
+.secciones-nav li:hover{
+    color: #B4844E;
 }
 .contact {
     /* border: black solid 2px; */
@@ -69,6 +74,92 @@ nav {
     border: 2.5px solid #88283B;
     border-radius: 2rem;
 }
+.contact p:hover{
+    border-color: #B46C4E;
+    color: #B46C4E;
+    cursor: pointer;
+}
+.main-message{
+    height: 30rem;
+    background-color: #B0BFCC;
+    text-align: center;
+    color: #CC7888;
+}
+.main-message h1{
+    font-size: 5rem;
+    padding-top: 4rem;
+}
+.main-message h2{
+    font-size: 3.6rem;
+    padding-top: 1rem;
+}
+.portfolio{
+    height: 38rem;
+    background-color: #58758E;
+    border: #88283B solid 2px;
+
+}
+.portfolio h2{
+    font-size: 3.6rem;
+    text-align: center;
+
+    padding: 2rem 0;
+}
+.port-draws{
+    height: 24rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.port-draws .section-box{
+    /* border: black solid 1px; */
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.section-box p{
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+.section-box a{
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.subsection-box{
+    display: flex;
+    flex-direction: row;
+}
+.port-box{
+    /* background-color: lightblue; */
+
+    height: 22rem;
+    width: 22rem;
+    border: 1px solid hotpink;
+    margin: 1rem;
+
+    border-radius: 20px;
+}
+.port-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.seccion-convencer{
+    height: 40rem;
+    background-color: #CC7888;
+}
+
+footer{
+    background-color: #58758E;
+    height: 20vh;
+}
+
 
 /* 
     This is the URL to the paletton combinations
@@ -85,5 +176,7 @@ nav {
     Envíos a todo Chile 📦
     👇🏻Haz tu pedido aquí👇🏻
     wa.me/56966016968
+
+    +569 6601 6968
 
 */
