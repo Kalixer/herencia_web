@@ -81,7 +81,7 @@ nav {
 }
 .main-message{
     height: 30rem;
-    background-color: #B0BFCC;
+    background-image:url("../../assets/pics/background.jpg") ;
     text-align: center;
     color: #CC7888;
 }
