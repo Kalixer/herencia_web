@@ -96,7 +96,7 @@ nav {
 .portfolio{
     height: 38rem;
     background-color: #58758E;
-    border: #88283B solid 2px;
+    border: #365674 solid 2px;
 
 }
 .portfolio h2{
@@ -153,10 +153,98 @@ nav {
 .seccion-convencer{
     height: 40rem;
     background-color: #CC7888;
-}
 
-footer{
+}
+.argument{
+    display: flex;
+    flex-direction: row;
+
+    margin: 0 2rem;
+    padding: 2rem 0;
+
+    justify-content: space-between;
+}
+.argument div{
+    margin: 3rem;
+}
+.argument :nth-child(1){
+    height: 300px;
+    width: 500px;
+
+    font-size: 8rem;
+    font-weight: 600;
+    padding: 2rem 4rem;
+    /* border: #365674 solid 2px; */
+}
+.argument :nth-child(2){
+    height: 300px;
+    width: 700px;
+    font-size: 2.6rem;
+    border: goldenrod solid 2px;
+
+}
+.selling{
+    height: 50rem;
     background-color: #58758E;
+}
+.selling .message{
+    padding-top: 4rem;
+    font-size: 5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.contacto{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    border: blue solid 2px;
+
+    height: 200px;
+
+}
+.sub-contacto{
+    font-size: 2rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.sub-contacto div{
+    width: 600px;
+}
+.sub-contacto :nth-child(1){
+    text-align: center;
+
+    font-size: 5rem;
+
+    border: red solid 2px;
+}
+.sub-contacto :nth-child(2){
+    font-size: 5rem;
+
+    border: red solid 2px;
+}
+.contacto :nth-child(2){
+    font-size: 4rem;
+    text-align: center;
+}
+.contacto :nth-child(2) a{
+    font-size: 4rem;
+    text-decoration: none;
+
+    color: black;
+}
+.contacto :nth-child(2) a:hover{
+    color: #EEAFBB;
+
+}
+footer{
+    border-top: solid 1px #58758E;
+
+    background-color: #365674;
     height: 20vh;
 }
 
