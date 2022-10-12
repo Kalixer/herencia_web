@@ -1,16 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
-</head>
-<body>
-    <nav>
+
+
+
+const Home = () => {
+    return (
+        <div>
+            <nav>
         <figure class="logo">
-            <img src="../../assets/pics/logo.jpg" alt="">
+            <img src="../../assets/pics/logo.jpg" alt=""/>
         </figure>
         <div class="navigation">
             <ul class="secciones-nav">
@@ -38,13 +34,13 @@
                     <p>Color</p>
                     <div class="subsection-box">
                         <figure class="port-box">
-                            <img src="../../assets/pics/atardecer.jpg" alt="">
+                            <img src="../../assets/pics/atardecer.jpg" alt=""/>
                         </figure>
                         <figure class="port-box">
-                            <img src="../../assets/pics/zorro.jpg" alt="">
+                            <img src="../../assets/pics/zorro.jpg" alt=""/>
                         </figure>
                         <figure class="port-box">
-                            <img src="../../assets/pics/red_hair_girl.jpg" alt="">
+                            <img src="../../assets/pics/red_hair_girl.jpg" alt=""/>
                         </figure>
                     </div>
                     <a href="#">Ver más &#8594;</a>
@@ -54,13 +50,13 @@
                     <p>Grafito</p>
                     <div class="subsection-box">
                         <figure class="port-box">
-                            <img src="../../assets/pics/caballo.jpg" alt="">
+                            <img src="../../assets/pics/caballo.jpg" alt=""/>
                         </figure>
                         <figure class="port-box">
-                            <img src="../../assets/pics/ardilla.jpeg" alt="">
+                            <img src="../../assets/pics/ardilla.jpeg" alt=""/>
                         </figure>
                         <figure class="port-box">
-                            <img src="../../assets/pics/puppy_paw.jpg" alt="">
+                            <img src="../../assets/pics/puppy_paw.jpg" alt=""/>
                         </figure>
                     </div>
                     <a href="#">Ver más &#8594;</a>
@@ -100,5 +96,6 @@
         </div>
         <footer></footer>
     </main>
-</body>
-</html>
+        </div>
+    )
+}

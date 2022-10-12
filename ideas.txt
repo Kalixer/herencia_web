@@ -1,7 +1,7 @@
 Inspiration: https://lovewhoworld.com/
 
-This is the URL to the paletton combinations
-https://paletton.com/#uid=55v0p0kd6rs4qJO8uwWi7mDmDik 
+This is the URL to the paletton combinations 
+https://paletton.com/#uid=75v0W0k8uwY1ITo4DIHd6rziymu
 Data for the html and maquetation:
 Herencia Familiar
 Artist
