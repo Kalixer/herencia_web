@@ -1,6 +1,6 @@
+const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const path = require('path')
 
 module.exports = {
     entry: './src/index.js',
@@ -12,7 +12,17 @@ module.exports = {
     devtool: 'source-map',
     mode: 'development',
     resolve: {
-        extensions: ['.js', '.jsx']
+        extensions: ['.js', '.jsx'],
+        alias: {
+            '@components': path.resolve(__dirname, 'src/components/'),
+            '@containers': path.resolve(__dirname, 'src/containers/'),
+            '@pages': path.resolve(__dirname, 'src/pages/'),
+            '@routes': path.resolve(__dirname, 'src/routes/'),
+            '@styles': path.resolve(__dirname, 'src/styles/'),
+            '@assets': path.resolve(__dirname, 'src/assets/'),
+            '@icons': path.resolve(__dirname, 'src/assets/icons/'),
+            '@pics': path.resolve(__dirname, 'src/assets/pics/'),
+        },
     },
     module: {
         rules: [
@@ -38,7 +48,11 @@ module.exports = {
                     "css-loader", 
                     "sass-loader"
                 ]
-            }
+            },
+			{
+				test: /\.(png|svg|jpg|jpeg|gif)$/,
+				type: 'asset',
+			},
         ]
     },
     plugins: [

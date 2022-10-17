@@ -1,9 +1,10 @@
 import React from 'react';
+import '../styles/NotFound.scss';
 
 const NotFound = () => {
 	return (
-		<div>
-			No encontrado, error 404.
+		<div className='nfound'>
+			<h1>404. We couldn't find your page :(</h1>
 		</div>
 	);
 }

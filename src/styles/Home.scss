@@ -74,7 +74,7 @@ nav {
 }
 .main-message{
     height: 30rem;
-    background-image:url("../../assets/pics/background.jpg") ;
+    background-image:url("@pics/background.jpg") ;
     text-align: center;
     color: #CC7888;
 }
@@ -247,6 +247,34 @@ footer{
     height: 5vh;
 }
 
+@media (max-width:1450px){
+    .portfolio{
+        height: 80rem;
+    }
+    .port-draws{
+        flex-direction: column;
+
+        margin-top: 20rem;
+    }
+}
+@media (max-width:800px){
+    .portfolio{
+        height: 160rem;
+    }
+    .port-draws{
+        flex-direction: column;
+
+        margin-top: 68rem;
+    }
+    .port-box{
+        height: 35rem;
+        width: 35rem;
+    }
+
+    .subsection-box{
+        flex-direction: column;
+    }
+}
 
 /* 
     This is the URL to the paletton combinations
