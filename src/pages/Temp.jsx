@@ -41,14 +41,14 @@ const Temp = () => {
                     <p>Color</p>
                     <div className="subsection-box">
                         <figure className="port-box">
-                            <img src={atarceder} alt=""/>
+                            <img src={red_hair_girl} alt=""/>
                         </figure>
-                        <figure className="port-box">
+                        {/* <figure className="port-box">
                             <img src={zorro} alt=""/>
                         </figure>
                         <figure className="port-box">
-                            <img src={red_hair_girl} alt=""/>
-                        </figure>
+                            <img src={atarceder} alt=""/>
+                        </figure> */}
                     </div>
                     <a href="#">Ver más &#8594;</a>
                 </div>
@@ -57,14 +57,14 @@ const Temp = () => {
                     <p>Grafito</p>
                     <div className="subsection-box">
                         <figure className="port-box">
-                            <img src={caballo} alt=""/>
+                            <img src={puppy_paw} alt=""/>
                         </figure>
-                        <figure className="port-box">
+                        {/* <figure className="port-box">
                             <img src={ardilla} alt=""/>
                         </figure>
                         <figure className="port-box">
-                            <img src={puppy_paw} alt=""/>
-                        </figure>
+                            <img src={caballo} alt=""/>
+                        </figure> */}
                     </div>
                     <a href="#">Ver más &#8594;</a>
                 </div>
@@ -87,13 +87,15 @@ const Temp = () => {
             <div className="contacto">
                 <div className="sub-contacto">
                     <div>
-                        Ponte en contacto con nosotros 👉
-                    </div>
-                    <div>
+                        Ponte en contacto con nosotros 
                         <a href="https://l.instagram.com/?u=http%3A%2F%2Fwa.me%2F56966016968&amp;e=ATMZo8BzW0SBdDF9n8fslPcCt8EE6kvZzgiV7k1GWAocu-kV8qJ1TZr7UxNzE2edY1HPU1CeTM0aPupHeHsu3A&amp;s=1" rel="me nofollow noopener noreferrer" target="_blank"><div className="_aacl _aacp _aacw _aacz _aada _aade">+569 6601 6968</div></a>
+                        
+                    </div>
+                    <div className="medio-pago">
+                        <p>Aceptamos Débito, Crédito (Visa, mastercard), órganos (ideal riñones, en buen estado si) y criptomonedas</p>
                     </div>
                 </div>
-                <div>
+                <div className="instagram">
                     Siguenos también en<> </>
                     <a href="https://www.instagram.com/herencia_familiar/">
                          Instagram

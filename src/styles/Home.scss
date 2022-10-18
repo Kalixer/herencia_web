@@ -87,7 +87,7 @@ nav {
     padding-top: 1rem;
 }
 .portfolio{
-    height: 38rem;
+    height: 60rem;
     background-color: #58758E;
     border: #365674 solid 2px;
 
@@ -99,12 +99,14 @@ nav {
     padding: 2rem 0;
 }
 .port-draws{
-    height: 24rem;
+    height: 50rem;
 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
+    border: black solid 1px;
 }
 .port-draws .section-box{
     /* border: black solid 1px; */
@@ -127,10 +129,10 @@ nav {
     flex-direction: row;
 }
 .port-box{
-    /* background-color: lightblue; */
+    // background-color: lightblue;
 
-    height: 22rem;
-    width: 22rem;
+    height: 40rem;
+    width: 40rem;
     border: 1px solid hotpink;
     margin: 1rem;
 
@@ -166,7 +168,7 @@ nav {
 
     font-size: 8rem;
     font-weight: 600;
-    padding: 2rem 4rem;
+    padding: 0rem 2rem;
     /* border: #365674 solid 2px; */
 }
 .argument :nth-child(2){
@@ -182,14 +184,15 @@ nav {
 
 }
 .selling{
-    height: 50rem;
+    height: 60rem;
     background-color: #58758E;
 }
 .selling .message{
-    padding-top: 4rem;
+    padding: 4rem 0;
     font-size: 5rem;
     font-weight: 600;
     text-align: center;
+
 }
 .contacto{
     margin-top: 5rem;
@@ -216,18 +219,19 @@ nav {
 .sub-contacto :nth-child(1){
     text-align: center;
 
-    font-size: 5rem;
+    font-size: 4rem;
 
     /* border: red solid 2px; */
 }
-.sub-contacto :nth-child(2){
-    font-size: 5rem;
+.medio-pago p{
+    font-size: 10px;
+    // border: red solid 2px;
 
-    /* border: red solid 2px; */
 }
 .contacto :nth-child(2){
     font-size: 4rem;
     text-align: center;
+    margin: 2rem;
 }
 .contacto :nth-child(2) a{
     font-size: 4rem;
@@ -243,35 +247,79 @@ nav {
 footer{
     border-top: solid 1px #58758E;
 
-    background-color: #58758E;
-    height: 5vh;
+    background-color: #365674;
+    height: 20vh;
 }
 
-@media (max-width:1450px){
+@media (max-width:1130px){
     .portfolio{
-        height: 80rem;
+        height: 110rem;
     }
     .port-draws{
         flex-direction: column;
 
         margin-top: 20rem;
     }
+    .section-convencer{
+        height: 50rem;
+    }
+    .argument :nth-child(1){
+
+        margin: 2rem;
+        padding-top: 0rem;
+    }
+
+}
+
+@media (max-width: 1000px){
+    .argument{
+        flex-direction: column;
+        align-items: center;
+
+        // border: solid 1px blue;
+
+    }
+    .argument :nth-child(1){
+        // border: solid 1px red;
+        width: 90vw;
+        height: 10rem;
+        text-align: center;
+
+        margin: 0;
+    }
+    .argument :nth-child(2){
+        // border: solid 1px green;
+        width: 90vw;
+        text-align: center;
+        height: 200px;
+
+        margin: 2rem;
+        padding: 0;
+    }
 }
 @media (max-width:800px){
-    .portfolio{
-        height: 160rem;
-    }
-    .port-draws{
-        flex-direction: column;
 
-        margin-top: 68rem;
-    }
-    .port-box{
-        height: 35rem;
-        width: 35rem;
-    }
+}
 
-    .subsection-box{
+@media (max-width:400px){
+    // .portfolio{
+    //     height: 160rem;
+    // }
+    // .port-draws{
+    //     flex-direction: column;
+
+    //     margin-top: 68rem;
+    // }
+    // .port-box{
+    //     height: 35rem;
+    //     width: 35rem;
+    // }
+
+    // .subsection-box{
+    //     flex-direction: column;
+    // }
+
+    .argument {
         flex-direction: column;
     }
 }
