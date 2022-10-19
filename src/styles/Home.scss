@@ -87,7 +87,7 @@ nav {
     padding-top: 1rem;
 }
 .portfolio{
-    height: 60rem;
+    height: 40rem;
     background-color: #58758E;
     border: #365674 solid 2px;
 
@@ -99,17 +99,17 @@ nav {
     padding: 2rem 0;
 }
 .port-draws{
-    height: 50rem;
+    height: 30rem;
 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 
-    border: black solid 1px;
+    // border: black solid 1px;
 }
 .port-draws .section-box{
-    /* border: black solid 1px; */
+    // border: black solid 1px; 
     
     display: flex;
     flex-direction: column;
@@ -131,8 +131,8 @@ nav {
 .port-box{
     // background-color: lightblue;
 
-    height: 40rem;
-    width: 40rem;
+    height: 22rem;
+    width: 22rem;
     border: 1px solid hotpink;
     margin: 1rem;
 
@@ -223,24 +223,28 @@ nav {
 
     /* border: red solid 2px; */
 }
-.medio-pago p{
-    font-size: 10px;
-    // border: red solid 2px;
 
-}
 .contacto :nth-child(2){
     font-size: 4rem;
     text-align: center;
     margin: 2rem;
 }
-.contacto :nth-child(2) a{
+.medio-pago h3{
+    text-decoration-line:underline;
+}
+.medio-pago .opciones{
+    font-size: 2.8rem;
+    // border: red solid 2px;
+
+}
+.contacto a{
     font-size: 4rem;
     font-weight: 600;
-    /* text-decoration: none; */
+    text-decoration: none;
 
     color: black;
 }
-.contacto :nth-child(2) a:hover{
+.contacto a:hover{
     color: #EEAFBB;
 
 }
@@ -253,7 +257,7 @@ footer{
 
 @media (max-width:1130px){
     .portfolio{
-        height: 110rem;
+        height: 95rem;
     }
     .port-draws{
         flex-direction: column;
@@ -272,12 +276,24 @@ footer{
 }
 
 @media (max-width: 1000px){
+    .section-box{
+        height: 40rem;
+        padding: 2rem;
+        margin: 2rem 0;
+    }
+    .port-draws{
+        margin: 0;
+        height: 80rem;
+    }
+    .port-box{
+        height: 28rem;
+        width: 28rem;
+
+        margin: 4rem;
+    }
     .argument{
         flex-direction: column;
         align-items: center;
-
-        // border: solid 1px blue;
-
     }
     .argument :nth-child(1){
         // border: solid 1px red;
@@ -288,13 +304,19 @@ footer{
         margin: 0;
     }
     .argument :nth-child(2){
-        // border: solid 1px green;
         width: 90vw;
         text-align: center;
         height: 200px;
 
         margin: 2rem;
         padding: 0;
+    }
+    .selling{
+        height: 75rem;
+    }
+    .sub-contacto{
+        flex-direction: column;
+        margin-top: 8rem;
     }
 }
 @media (max-width:800px){

@@ -11,3 +11,23 @@ Regala o decora con arte 🥰
 Envíos a todo Chile 📦
 👇🏻Haz tu pedido aquí👇🏻
 wa.me/56966016968
+
+
+
+En el display de las imagenes de los trabajos
+
+Mostrar distintos trabajos al azar [ Math.random ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+

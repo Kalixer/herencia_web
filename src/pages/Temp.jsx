@@ -1,14 +1,48 @@
 import React from "react";
 import '@styles/Home.scss';
 import logo from '@icons/logo.jpg';
-import atarceder from '@pics/atardecer.jpg';
+import atardecer from '@pics/atardecer.jpg';
 import zorro from '@pics/zorro.jpg';
 import red_hair_girl from '@pics/red_hair_girl.jpg';
 import caballo from '@pics/caballo.jpg';
 import ardilla from '@pics/ardilla.jpeg';
 import puppy_paw from '@pics/puppy_paw.jpg';
 
+const trabajos_color = [
+    <figure className="port-box">
+        <img src={zorro} alt=""/>
+    </figure>,
+    <figure className="port-box">
+        <img src={red_hair_girl} alt=""/>
+    </figure>,
+    <figure className="port-box">
+        <img src={atardecer} alt=""/>
+    </figure>,
+]
+const trabajos_grafito = [
+    <figure className="port-box">
+        <img src={ardilla} alt=""/>
+    </figure>,
+    <figure className="port-box">
+        <img src={puppy_paw} alt=""/>
+    </figure>,
+    <figure className="port-box">
+        <img src={caballo} alt=""/>
+    </figure>,
+]
+
+let window_width = window.innerWidth; //Ancho de la pantalla
+
+
 const Temp = () => {
+
+    if(window_width < 1455){
+        trabajos_color.length = 2
+        trabajos_grafito.length = 2
+        console.log(trabajos_color)
+        console.log(trabajos_grafito)
+    }
+
     return (
         <div>
             <nav>
@@ -40,15 +74,7 @@ const Temp = () => {
                 <div className="section-box">
                     <p>Color</p>
                     <div className="subsection-box">
-                        <figure className="port-box">
-                            <img src={red_hair_girl} alt=""/>
-                        </figure>
-                        {/* <figure className="port-box">
-                            <img src={zorro} alt=""/>
-                        </figure>
-                        <figure className="port-box">
-                            <img src={atarceder} alt=""/>
-                        </figure> */}
+                        {trabajos_color}
                     </div>
                     <a href="#">Ver más &#8594;</a>
                 </div>
@@ -56,15 +82,7 @@ const Temp = () => {
                 <div className="section-box">
                     <p>Grafito</p>
                     <div className="subsection-box">
-                        <figure className="port-box">
-                            <img src={puppy_paw} alt=""/>
-                        </figure>
-                        {/* <figure className="port-box">
-                            <img src={ardilla} alt=""/>
-                        </figure>
-                        <figure className="port-box">
-                            <img src={caballo} alt=""/>
-                        </figure> */}
+                        {trabajos_grafito}
                     </div>
                     <a href="#">Ver más &#8594;</a>
                 </div>
@@ -86,13 +104,14 @@ const Temp = () => {
             </div>
             <div className="contacto">
                 <div className="sub-contacto">
-                    <div>
+                    <div className="ponerse-en-contacto">
                         Ponte en contacto con nosotros 
                         <a href="https://l.instagram.com/?u=http%3A%2F%2Fwa.me%2F56966016968&amp;e=ATMZo8BzW0SBdDF9n8fslPcCt8EE6kvZzgiV7k1GWAocu-kV8qJ1TZr7UxNzE2edY1HPU1CeTM0aPupHeHsu3A&amp;s=1" rel="me nofollow noopener noreferrer" target="_blank"><div className="_aacl _aacp _aacw _aacz _aada _aade">+569 6601 6968</div></a>
                         
                     </div>
                     <div className="medio-pago">
-                        <p>Aceptamos Débito, Crédito (Visa, mastercard), órganos (ideal riñones, en buen estado si) y criptomonedas</p>
+                        <h3>Medios de pago</h3>
+                        <p className="opciones">Débito, Crédito (Visa, mastercard), <br/> órganos (ideal riñones, en buen estado si) <br/> y criptomonedas</p>
                     </div>
                 </div>
                 <div className="instagram">
