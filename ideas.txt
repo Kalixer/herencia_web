@@ -16,6 +16,11 @@ wa.me/56966016968
 
 En el display de las imagenes de los trabajos
 
+
+Show 2 columns 2 images per row (4 total per style)
+
+
+
 Mostrar distintos trabajos al azar [ Math.random ]
 
 

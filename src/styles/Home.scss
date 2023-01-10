@@ -73,51 +73,71 @@ nav {
     cursor: pointer;
 }
 .main-message{
-    height: 30rem;
-    background-image:url("@pics/background.jpg") ;
+    height: 45rem;
+    background-image:url("@pics/background.jpg");
     text-align: center;
     color: #CC7888;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .main-message h1{
-    font-size: 5rem;
-    padding-top: 4rem;
+    font-size: 7rem;
+    filter: drop-shadow(8px 8px 4px #ffffff);
 }
 .main-message h2{
-    font-size: 3.6rem;
+    font-size: 5rem;
     padding-top: 1rem;
+    filter: drop-shadow(8px 8px 4px #ffffff);
+
 }
 .portfolio{
-    height: 40rem;
+    height: 100rem;
     background-color: #58758E;
     border: #365674 solid 2px;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
+
 
 }
 .portfolio h2{
-    font-size: 3.6rem;
+    font-size: 5rem;
     text-align: center;
 
-    padding: 2rem 0;
+    padding: 3rem 0;
 }
 .port-draws{
-    height: 30rem;
-
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 
-    // border: black solid 1px;
+    border: black solid 1px;
 }
-.port-draws .section-box{
-    // border: black solid 1px; 
+.port-draws {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-box{
+    border: black solid 1px; 
     
+    // width: 48vw;
+    // height: 60rem;
+
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 2rem;
+
 }
 .section-box p{
-    font-size: 2.6rem;
+    font-size: 4rem;
     font-weight: 600;
+
 }
 .section-box a{
     font-size: 1.6rem;
@@ -131,10 +151,10 @@ nav {
 .port-box{
     // background-color: lightblue;
 
-    height: 22rem;
-    width: 22rem;
-    border: 1px solid hotpink;
-    margin: 1rem;
+    height: 30rem;
+    width: 30rem;
+    border: 2px solid hotpink;
+    margin: 2rem;
 
     border-radius: 20px;
 }
@@ -255,14 +275,20 @@ footer{
     height: 20vh;
 }
 
-@media (max-width:1130px){
+@media (max-width:1200px){
     .portfolio{
         height: 95rem;
     }
-    .port-draws{
-        flex-direction: column;
+    // .port-draws{
+    //     flex-direction: column;
 
-        margin-top: 20rem;
+    //     margin-top: 2rem;
+
+    //     border: red solid 1px;
+    //     height: 70rem;
+    // }
+    .section-box {
+        // border: blue solid 1px;
     }
     .section-convencer{
         height: 50rem;
@@ -275,21 +301,30 @@ footer{
 
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1100px){
     .section-box{
-        height: 40rem;
+        height: 60rem;
         padding: 2rem;
         margin: 2rem 0;
     }
+    .portfolio{
+        height: 150rem;
+    }
     .port-draws{
         margin: 0;
-        height: 80rem;
-    }
-    .port-box{
-        height: 28rem;
-        width: 28rem;
+        height: 135rem;
+        flex-direction: column;
 
-        margin: 4rem;
+        // border: solid 2px black;
+    }
+    // .port-box{
+    //     height: 28rem;
+    //     width: 28rem;
+
+    //     margin: 4rem;
+    // }
+    .seccion-convencer{
+        height: 54rem;
     }
     .argument{
         flex-direction: column;
@@ -308,7 +343,7 @@ footer{
         text-align: center;
         height: 200px;
 
-        margin: 2rem;
+        margin: 15rem;
         padding: 0;
     }
     .selling{
@@ -319,8 +354,8 @@ footer{
         margin-top: 8rem;
     }
 }
-@media (max-width:800px){
-
+@media (max-width:840px){
+    // Aqui la idea es manejar el Header para que las opciones no afecten el display del resto (Nada de barras blancas)
 }
 
 @media (max-width:400px){
