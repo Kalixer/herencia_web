@@ -1,0 +1,38 @@
+.seccion-convencer{
+    height: 40rem;
+    background-color: #CC7888;
+
+}
+.argument{
+    display: flex;
+    flex-direction: row;
+
+    margin: 0 2rem;
+    padding: 2rem 0;
+
+    justify-content: space-between;
+}
+.argument div{
+    margin: 3rem;
+}
+.argument :nth-child(1){
+    height: 300px;
+    width: 500px;
+
+    font-size: 8rem;
+    font-weight: 600;
+    padding: 0rem 2rem;
+    /* border: #365674 solid 2px; */
+}
+.argument :nth-child(2){
+    height: 300px;
+    width: 700px;
+    font-size: 2.4rem;
+    /* border: goldenrod solid 2px; */
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

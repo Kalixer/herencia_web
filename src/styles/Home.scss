@@ -94,7 +94,7 @@ nav {
 
 }
 .portfolio{
-    height: 100rem;
+    height: 250rem;
     background-color: #58758E;
     border: #365674 solid 2px;
     // display: flex;
@@ -115,7 +115,7 @@ nav {
     justify-content: space-around;
     align-items: center;
 
-    border: black solid 1px;
+    // border: black solid 1px;
 }
 .port-draws {
     display: flex;
@@ -123,7 +123,7 @@ nav {
 }
 
 .section-box{
-    border: black solid 1px; 
+    // border: black solid 1px; 
     
     // width: 48vw;
     // height: 60rem;
@@ -147,12 +147,14 @@ nav {
 .subsection-box{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .port-box{
     // background-color: lightblue;
 
-    height: 30rem;
-    width: 30rem;
+    height: 50rem;
+    width: 50rem;
     border: 2px solid hotpink;
     margin: 2rem;
 
@@ -287,9 +289,9 @@ footer{
     //     border: red solid 1px;
     //     height: 70rem;
     // }
-    .section-box {
-        // border: blue solid 1px;
-    }
+    // .section-box {
+    //     // border: blue solid 1px;
+    // }
     .section-convencer{
         height: 50rem;
     }

@@ -1,10 +1,13 @@
 import React from "react";
+import '@styles/Header.scss';
+import logo from '@icons/logo.jpg'; // It's a logo
+
 
 const Header = () => {
     return (
         <nav>
         <figure className="logo">
-            <img src="../../assets/pics/logo.jpg" alt=""/>
+            <img src={logo} alt="logo"/>
         </figure>
         <div className="navigation">
             <ul className="secciones-nav">

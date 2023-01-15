@@ -1,0 +1,21 @@
+.main-message{
+    height: 45rem;
+    background-image:url("@pics/background.jpg");
+    text-align: center;
+    color: #CC7888;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-message h1{
+    font-size: 7rem;
+    filter: drop-shadow(8px 8px 4px #ffffff);
+}
+.main-message h2{
+    font-size: 5rem;
+    padding-top: 1rem;
+    filter: drop-shadow(8px 8px 4px #ffffff);
+
+}

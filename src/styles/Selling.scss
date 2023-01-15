@@ -1,0 +1,65 @@
+.selling{
+    height: 60rem;
+    background-color: #58758E;
+}
+.selling .message{
+    padding: 4rem 0;
+    font-size: 5rem;
+    font-weight: 600;
+    text-align: center;
+
+}
+.contacto{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    /* border: blue solid 2px; */
+
+    height: 200px;
+
+}
+.sub-contacto{
+    font-size: 2rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.sub-contacto div{
+    width: 600px;
+}
+.sub-contacto :nth-child(1){
+    text-align: center;
+
+    font-size: 4rem;
+
+    /* border: red solid 2px; */
+}
+
+.contacto :nth-child(2){
+    font-size: 4rem;
+    text-align: center;
+    margin: 2rem;
+}
+.medio-pago h3{
+    text-decoration-line:underline;
+}
+.medio-pago .opciones{
+    font-size: 2.8rem;
+    // border: red solid 2px;
+
+}
+.contacto a{
+    font-size: 4rem;
+    font-weight: 600;
+    text-decoration: none;
+
+    color: black;
+}
+.contacto a:hover{
+    color: #EEAFBB;
+
+}
